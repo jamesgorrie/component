@@ -1,0 +1,25 @@
+{
+  "name": "component",
+  "main": "component.js",
+  "version": "0.0.0",
+  "authors": [
+    "James Gorrie <james.gorrie@guardian.co.uk>"
+  ],
+  "description": "MVP",
+  "license": "MIT",
+  "directory" : "lib",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bean": "~1.0.4",
+    "bonzo": "~1.3.6",
+    "qwery": "~3.4.1",
+    "requirejs": "~2.1.9",
+    "reqwest": "~0.8.3"
+  }
+}
