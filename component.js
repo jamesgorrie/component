@@ -67,9 +67,10 @@ Component.prototype.attachTo = function(elem) {
     this.checkAttached();
     if (!elem) {
         this.attachToDefault();
+    } else {
+        this.elem = elem;
+        this._ready(); 
     }
-    this.elem = elem;
-    this._ready();
 };
 
 /**
