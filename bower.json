@@ -1,7 +1,7 @@
 {
   "name": "component",
   "main": "component.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "James Gorrie <james.gorrie@guardian.co.uk>"
   ],
